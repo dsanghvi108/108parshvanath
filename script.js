@@ -45,7 +45,7 @@ function drawBadge() {
   if (userImage) {
     const size = 300 * scale;
     const x = (canvas.width - size) / 2;
-    const y = 120 * scale;
+    const y = 100 * scale;
     ctx.save();
     ctx.beginPath();
     ctx.arc(canvas.width / 2, y + size / 2, size / 2, 0, Math.PI * 2);
